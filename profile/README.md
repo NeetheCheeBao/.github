@@ -21,6 +21,6 @@
 - 🤖 [nullbot](href="")
 
 ----
-![NeetheCheeBao](https://raw.githubusercontent.com/NeetheCheeBao/.github/snakesvg/github-contribution-grid-snake.svg)
+[![NeetheCheeBao](https://raw.githubusercontent.com/NeetheCheeBao/.github/snakesvg/github-contribution-grid-snake.svg)](https://github.com/NeetheCheeBao)
 
 <a href="https://github.com/NeetheCheeBao?tab=repositories">**Good Luck! 🍺**</a>
