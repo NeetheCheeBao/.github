@@ -1,6 +1,6 @@
 <a href="https://github.com/NeetheCheeBao"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FFB7C5&size=30&width=600&lines=%F0%9F%91%8B+Hi%21%20%20%20I%27m+NeetheCheeBao" alt="Typing SVG" /></a>
 
-<a href="https://github.com/NeetheCheeBao"><img alt="image" src="/assets/IMG/pixiv107729136.jpg" /></a>
+<a href="https://github.com/NeetheCheeBao"><img alt="image" src="/assets/images/pixiv107729136.jpg" /></a>
 
 ##
 
