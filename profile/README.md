@@ -18,7 +18,7 @@
 ### 📧 Connect
 - 📫 [null](mailto:#)
 - 📫 [null](mailto:#)
-- 🤖 [null](href="")
+- 🤖 [null](href=#)
 
 ----
 [![NeetheCheeBao](https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/github-contribution-grid-snake.svg)](https://github.com/NeetheCheeBao)
