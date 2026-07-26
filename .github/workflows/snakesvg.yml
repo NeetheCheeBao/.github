@@ -62,7 +62,7 @@ jobs:
 
       # 将生成的资源推送到 profilesvg 分支
       - name: push assets to the profilesvg branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: profilesvg
           build_dir: dist
