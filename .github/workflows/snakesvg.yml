@@ -1,4 +1,4 @@
-name: generate animation
+name: generate profile assets
 
 on:
   # 每24小时自动运行一次
@@ -18,7 +18,7 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
       - name: generate github-contribution-grid-snake.svg
@@ -28,9 +28,40 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          
-      # 将生成的动画文件推送到profilesvg分支
-      - name: push github-contribution-grid-snake.svg to the output branch
+
+      # 预生成 Stats 卡片，避免访客访问时触发第三方 API / GitHub 速率限制
+      - name: generate stats cards
+        env:
+          USER: ${{ github.repository_owner }}
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+
+          curl -fsSL --retry 3 --retry-delay 5 -o dist/top-langs.svg \
+            "https://github-stats-extended.vercel.app/api/top-langs/?username=${USER}&layout=donut&bg_color=40,f04d4d,ff4af3,608bf9&title_color=fff&text_color=fff"
+
+          curl -fsSL --retry 3 --retry-delay 5 -o dist/stats.svg \
+            "https://github-stats-extended.vercel.app/api?username=${USER}&show_icons=true&theme=ambient_gradient&rank_icon=github"
+
+          curl -fsSL --retry 3 --retry-delay 5 -o dist/profile-details.svg \
+            "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=${USER}&theme=github"
+
+          # demolab 为 streak-stats 当前维护入口（原 heroku 端点已不稳定）
+          curl -fsSL --retry 3 --retry-delay 5 -o dist/streak.svg \
+            "https://streak-stats.demolab.com/?user=${USER}&theme=gruvbox_light"
+
+          for f in dist/top-langs.svg dist/stats.svg dist/profile-details.svg dist/streak.svg; do
+            test -s "$f"
+            if ! head -c 256 "$f" | grep -qiE '<svg|<\?xml'; then
+              echo "unexpected content in $f:"
+              head -c 500 "$f"
+              exit 1
+            fi
+            echo "ok: $f ($(wc -c < "$f") bytes)"
+          done
+
+      # 将生成的资源推送到 profilesvg 分支
+      - name: push assets to the profilesvg branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: profilesvg

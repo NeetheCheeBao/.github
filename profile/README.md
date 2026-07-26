@@ -6,13 +6,13 @@
 
 ### 📈 Stats
 
-| <a href="https://github.com/NeetheCheeBao"><img src="https://github-stats-extended.vercel.app/api/top-langs/?username=NeetheCheeBao&layout=donut&bg_color=40,f04d4d,ff4af3,608bf9&title_color=fff&text_color=fff" /></a> | <a href="https://github.com/NeetheCheeBao"><img src="https://github-stats-extended.vercel.app/api?username=NeetheCheeBao&show_icons=true&theme=ambient_gradient&rank_icon=github" /></a> |
+| <a href="https://github.com/NeetheCheeBao"><img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/top-langs.svg" alt="Top languages" /></a> | <a href="https://github.com/NeetheCheeBao"><img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/stats.svg" alt="GitHub stats" /></a> |
 |---|---|
 
-| <a href="https://github.com/NeetheCheeBao"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NeetheCheeBao&theme=github" /></a> |
+| <a href="https://github.com/NeetheCheeBao"><img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/profile-details.svg" alt="Profile details" /></a> |
 |---|
 
-| <a href="https://github.com/NeetheCheeBao"><img src="https://github-readme-streak-stats.herokuapp.com/?user=NeetheCheeBao&theme=gruvbox_light" /></a> |
+| <a href="https://github.com/NeetheCheeBao"><img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/streak.svg" alt="Contribution streak" /></a> |
 |---|
 
 ### 📧 Connect
