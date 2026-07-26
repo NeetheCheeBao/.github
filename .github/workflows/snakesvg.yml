@@ -1,9 +1,9 @@
 name: generate profile assets
 
 on:
-  # 每24小时自动运行一次
+  # 每1小时自动运行一次（UTC）
   schedule:
-    - cron: "0 */24 * * *"
+    - cron: "0 * * * *"
 
   # 允许手动随时触发
   workflow_dispatch:
