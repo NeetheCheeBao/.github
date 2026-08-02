@@ -1,14 +1,9 @@
 name: generate profile assets
 
 on:
-  # 每1小时自动运行一次（UTC）
   schedule:
     - cron: "0 * * * *"
-
-  # 允许手动随时触发
   workflow_dispatch:
-
-  # 向main分支推送代码时触发
   push:
     branches:
       - main
@@ -18,66 +13,66 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
+      - name: prepare dist
+        run: mkdir -p dist
+
+      # Snake
       - name: generate github-contribution-grid-snake.svg
+        continue-on-error: true
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      # 预生成 Stats 卡片，避免访客访问时触发第三方 API / GitHub 速率限制
-      - name: generate stats cards
         env:
-          USER: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Stats
+      - name: generate stats.svg
+        continue-on-error: true
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: >-
+            username=${{ github.repository_owner }}&show_icons=true&theme=ambient_gradient&rank_icon=github
+          path: dist/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Top languages
+      - name: generate top-langs.svg
+        continue-on-error: true
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: >-
+            username=${{ github.repository_owner }}&layout=donut&bg_color=40,f04d4d,ff4af3,608bf9&title_color=fff&text_color=fff
+          path: dist/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Streak
+      - name: generate streak.svg
+        continue-on-error: true
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=${{ github.repository_owner }}&theme=gruvbox_light&disable_animations=true
+          path: dist/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 至少有一张 SVG 才推，避免空推
+      - name: check outputs
         run: |
-          set -euo pipefail
-          mkdir -p dist
-
-          fetch_card() {
-            local name="$1"
-            local url="$2"
-            local out="dist/${name}.svg"
-            echo "==> fetching ${name}"
-            if curl -fsSL --retry 3 --retry-delay 5 --max-time 60 -o "${out}" "${url}"; then
-              if [[ -s "${out}" ]] && head -c 256 "${out}" | grep -qiE '<svg|<\?xml'; then
-                echo "ok: ${out} ($(wc -c < "${out}") bytes)"
-                return 0
-              fi
-              echo "warn: ${out} is empty or not SVG, removing"
-              rm -f "${out}"
-              return 1
-            else
-              echo "warn: failed to fetch ${name} (url may be down), skipping"
-              rm -f "${out}"
-              return 1
-            fi
-          }
-
-          # 不因单张失败而中断整个 step
-          set +e
-          fetch_card "top-langs" \
-            "https://github-stats-extended.vercel.app/api/top-langs/?username=${USER}&layout=donut&bg_color=40,f04d4d,ff4af3,608bf9&title_color=fff&text_color=fff"
-          fetch_card "stats" \
-            "https://github-stats-extended.vercel.app/api?username=${USER}&show_icons=true&theme=ambient_gradient&rank_icon=github"
-          fetch_card "profile-details" \
-            "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=${USER}&theme=github"
-          fetch_card "streak" \
-            "https://streak-stats.demolab.com/?user=${USER}&theme=gruvbox_light"
-          set -e
-
-          # 至少有一张成功的 SVG 才继续推送；全挂则失败，避免空推
-          count=$(find dist -maxdepth 1 -type f -name '*.svg' ! -name 'github-contribution-grid-snake*.svg' | wc -l)
-          echo "stats cards ok: ${count}"
-          if [[ "${count}" -eq 0 ]]; then
-            echo "error: all stats cards failed"
+          count=$(find dist -type f -name '*.svg' | wc -l)
+          echo "generated svg count: ${count}"
+          ls -la dist || true
+          if [ "${count}" -eq 0 ]; then
+            echo "error: no svg generated"
             exit 1
           fi
 
-      # 将生成的资源推送到 profilesvg 分支
       - name: push assets to the profilesvg branch
         uses: crazy-max/ghaction-github-pages@v5
         with:
