@@ -19,7 +19,7 @@ jobs:
       - name: prepare dist
         run: mkdir -p dist
 
-      # Snake
+      # Snake svg card
       - name: generate github-contribution-grid-snake.svg
         continue-on-error: true
         uses: Platane/snk/svg-only@v3
@@ -27,11 +27,10 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Stats
+      # Stats svg card
       - name: generate stats.svg
         continue-on-error: true
         uses: stats-organization/github-readme-stats-action@v2
@@ -42,7 +41,7 @@ jobs:
           path: dist/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Top languages
+      # Top langs svg card
       - name: generate top-langs.svg
         continue-on-error: true
         uses: stats-organization/github-readme-stats-action@v2
@@ -53,7 +52,7 @@ jobs:
           path: dist/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Streak
+      # Streak svg card
       - name: generate streak.svg
         continue-on-error: true
         uses: DenverCoder1/github-readme-streak-stats@main
@@ -62,7 +61,29 @@ jobs:
           path: dist/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 至少有一张 SVG 才推，避免空推
+      # Profile details svg card
+      - name: generate profile-details.svg
+        continue-on-error: true
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          THEME: github
+          AUTO_PUSH: false
+
+      - name: collect profile-details.svg
+        continue-on-error: true
+        run: |
+          src=$(find profile-summary-card-output -type f -name '*profile-details*.svg' | head -n 1 || true)
+          if [ -n "${src}" ] && [ -s "${src}" ]; then
+            cp "${src}" dist/profile-details.svg
+            echo "ok: dist/profile-details.svg from ${src}"
+          else
+            echo "warn: profile-details.svg not found, skip"
+            find profile-summary-card-output -type f 2>/dev/null || true
+          fi
+
       - name: check outputs
         run: |
           count=$(find dist -type f -name '*.svg' | wc -l)
