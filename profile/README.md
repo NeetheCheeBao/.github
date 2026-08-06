@@ -24,11 +24,17 @@
 
 ---
 
+### 🌐 Blog
+
+[🔗 NeetheCheeBaoHomePages](https://neethecheebao.github.io)
+
+---
+
 ### ☎️ Connect
 
 - [📬 Mail](mailto:#)
 - [📬 Mail](mailto:#)
-- [🤖 Bot](https://t.me/#)
+- [🤖 Bot](#)
 
 ---
 
