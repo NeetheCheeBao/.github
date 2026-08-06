@@ -22,21 +22,15 @@
 - Astronomy enthusiast
 - Exploring the universe
 
----
-
 ### 🌐 Blog
 
 [🔗 NeetheCheeBaoHomePages](https://neethecheebao.github.io)
-
----
 
 ### ☎️ Connect
 
 - [📬 Mail](mailto:#)
 - [📬 Mail](mailto:#)
 - [🤖 Bot](#)
-
----
 
 <details>
 <summary>Stats</summary>
