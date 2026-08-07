@@ -24,13 +24,23 @@
 
 ### 🌐 Blog
 
-[🔗 NeetheCheeBaoHomePages](https://neethecheebao.github.io)
+<a href="https://neethecheebao.github.io">
+  <img src="https://img.shields.io/badge/%f0%9f%94%97-NeetheCheeBaoHomePages-FF00FF?style=for-the-badge&logoColor=white" alt="NeetheCheeBaoHomePages" />
+</a>
 
 ### ☎️ Connect
 
-- [📬 Mail](mailto:#)
-- [📬 Mail](mailto:#)
-- [🤖 Bot](#)
+<a href="mailto:#">
+  <img src="https://img.shields.io/badge/%f0%9f%93%ac_Mail-66CCFF?style=for-the-badge&logoColor=white" alt="Mail" />
+</a>
+<a href="mailto:#">
+  <img src="https://img.shields.io/badge/%f0%9f%93%ac_Mail-66CCFF?style=for-the-badge&logoColor=white" alt="Mail" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/%f0%9f%a4%96_Bot-39C5BB?style=for-the-badge&logoColor=white" alt="Bot" />
+</a>
+
+<br>
 
 <details>
 <summary>Stats</summary>
@@ -40,20 +50,28 @@
 <table border="0">
   <tr>
     <td>
-      <a href="https://github.com/NeetheCheeBao"><img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/top-langs.svg" alt="Top languages" /></a>
+      <a href="https://github.com/NeetheCheeBao">
+        <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/top-langs.svg" alt="Top languages" />
+      </a>
     </td>
     <td>
-      <a href="https://github.com/NeetheCheeBao"><img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/stats.svg" alt="GitHub stats" /></a>
+      <a href="https://github.com/NeetheCheeBao">
+        <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/stats.svg" alt="GitHub stats" />
+      </a>
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <a href="https://github.com/NeetheCheeBao"><img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/profile-details.svg" alt="Profile details" /></a>
+      <a href="https://github.com/NeetheCheeBao">
+        <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/profile-details.svg" alt="Profile details" />
+      </a>
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <a href="https://github.com/NeetheCheeBao"><img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/streak.svg" alt="Contribution streak" /></a>
+      <a href="https://github.com/NeetheCheeBao">
+        <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/streak.svg" alt="Contribution streak" />
+      </a>
     </td>
   </tr>
 </table>
@@ -64,7 +82,9 @@
 <br>
 
 <p align="center">
-  <a href="https://github.com/NeetheCheeBao"><img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/github-contribution-grid-snake.svg" alt="Snake" /></a>
+  <a href="https://github.com/NeetheCheeBao">
+    <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/github-contribution-grid-snake.svg" alt="Snake" />
+  </a>
 </p>
 
 </details>
@@ -73,4 +93,12 @@
 
 ---
 
-<a href="https://github.com/NeetheCheeBao?tab=repositories">**Good Luck! 🍺**</a>
+<div align="center">
+  <a href="https://github.com/NeetheCheeBao?tab=repositories">
+    <img src="https://img.shields.io/badge/%f0%9f%93%80_Go%20to%20repositories-FF9019?style=for-the-badge" alt="Random Repo" />
+  </a>
+
+  <a href="https://neethecheebao.github.io/">
+    <img src="https://img.shields.io/badge/%f0%9f%8e%b2_Random%20Repository-FFD700?style=for-the-badge" alt="Random Repo" />
+  </a>
+</div>
