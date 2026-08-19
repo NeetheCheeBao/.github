@@ -22,26 +22,6 @@
 - Astronomy enthusiast
 - Exploring the universe
 
-### 🌐 Blog
-
-<a href="https://neethecheebao.github.io">
-  <img src="https://img.shields.io/badge/%f0%9f%94%97-NeetheCheeBaoHomePages-FF00FF?style=for-the-badge&logoColor=white" alt="NeetheCheeBaoHomePages" />
-</a>
-
-### ☎️ Connect
-
-<a href="mailto:#">
-  <img src="https://img.shields.io/badge/%f0%9f%93%ac_Mail-66CCFF?style=for-the-badge&logoColor=white" alt="Mail" />
-</a>
-<a href="mailto:#">
-  <img src="https://img.shields.io/badge/%f0%9f%93%ac_Mail-66CCFF?style=for-the-badge&logoColor=white" alt="Mail" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/%f0%9f%a4%96_Bot-39C5BB?style=for-the-badge&logoColor=white" alt="Bot" />
-</a>
-
-<br>
-
 <details>
 <summary> </summary>
 <br>
@@ -97,6 +77,26 @@
 </details>
 
 </details>
+
+### 🌐 Blog
+
+<a href="https://neethecheebao.github.io">
+  <img src="https://img.shields.io/badge/%f0%9f%94%97-NeetheCheeBaoHomePages-FF00FF?style=for-the-badge&logoColor=white" alt="NeetheCheeBaoHomePages" />
+</a>
+
+### ☎️ Connect
+
+<a href="mailto:#">
+  <img src="https://img.shields.io/badge/%f0%9f%93%ac_Mail-66CCFF?style=for-the-badge&logoColor=white" alt="Mail" />
+</a>
+<a href="mailto:#">
+  <img src="https://img.shields.io/badge/%f0%9f%93%ac_Mail-66CCFF?style=for-the-badge&logoColor=white" alt="Mail" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/%f0%9f%a4%96_Bot-39C5BB?style=for-the-badge&logoColor=white" alt="Bot" />
+</a>
+
+<br>
 
 ---
 
