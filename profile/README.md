@@ -43,7 +43,7 @@
 <br>
 
 <details>
-<summary>Stats</summary>
+<summary> </summary>
 <br>
 
 <details>
@@ -102,12 +102,12 @@
 
 <div align="center">
   <a href="https://github.com/NeetheCheeBao?tab=repositories">
-    <img src="https://img.shields.io/badge/%f0%9f%93%80_Go%20to%20repositories-FF9019?style=for-the-badge" alt="Random Repo" />
+    <img src="https://img.shields.io/badge/%F0%9F%8F%AD_Repositories%20Home-FF9019?style=for-the-badge" alt="Repositories Home" />
   </a>
 
   <br>
 
   <a href="https://neethecheebao.github.io/project/RandomRepository/index.html">
-    <img src="https://img.shields.io/badge/%f0%9f%8e%b2_Random%20Repository-FFD700?style=for-the-badge" alt="Random Repo" />
+    <img src="https://img.shields.io/badge/%f0%9f%8e%b2_Random%20Repositories-FFD700?style=for-the-badge" alt="Random Repositories" />
   </a>
 </div>
