@@ -44,49 +44,56 @@
 
 <details>
 <summary>Stats</summary>
-
 <br>
-
-<table border="0">
-  <tr>
-    <td>
-      <a href="https://github.com/NeetheCheeBao">
-        <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/top-langs.svg" alt="Top languages" />
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/NeetheCheeBao">
-        <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/stats.svg" alt="GitHub stats" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <a href="https://github.com/NeetheCheeBao">
-        <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/profile-details.svg" alt="Profile details" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <a href="https://github.com/NeetheCheeBao">
-        <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/streak.svg" alt="Contribution streak" />
-      </a>
-    </td>
-  </tr>
-</table>
 
 <details>
-<summary>🐍 snake</summary>
-
+<summary>Top languages</summary>
 <br>
+<p align="center">
+  <a href="https://github.com/NeetheCheeBao">
+    <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/top-langs.svg" alt="Top languages" />
+  </a>
+</p>
+</details>
 
+<details>
+<summary>GitHub stats</summary>
+<br>
+<p align="center">
+  <a href="https://github.com/NeetheCheeBao">
+    <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/stats.svg" alt="GitHub stats" />
+  </a>
+</p>
+</details>
+
+<details>
+<summary>Profile details</summary>
+<br>
+<p align="center">
+  <a href="https://github.com/NeetheCheeBao">
+    <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/profile-details.svg" alt="Profile details" />
+  </a>
+</p>
+</details>
+
+<details>
+<summary>Contribution streak</summary>
+<br>
+<p align="center">
+  <a href="https://github.com/NeetheCheeBao">
+    <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/streak.svg" alt="Contribution streak" />
+  </a>
+</p>
+</details>
+
+<details>
+<summary>Snake</summary>
+<br>
 <p align="center">
   <a href="https://github.com/NeetheCheeBao">
     <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/profilesvg/github-contribution-grid-snake.svg" alt="Snake" />
   </a>
 </p>
-
 </details>
 
 </details>
