@@ -107,7 +107,7 @@
 
   <br>
 
-  <a href="https://neethecheebao.github.io/project/RandomRepository/index.html">
+  <a href="https://neethecheebao.github.io/project/RandomRepositories/index.html">
     <img src="https://img.shields.io/badge/%f0%9f%8e%b2_Random%20Repositories-FFD700?style=for-the-badge" alt="Random Repositories" />
   </a>
 </div>
