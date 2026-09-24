@@ -17,8 +17,8 @@
 ### 👤 About me
 
 - Dedicated to optimizing Windows OS, performance comes first
-- I prefer graphical software tools
-- Hardcore coding and Vibe coding
+- Passionate about GUI and TUI tools
+- I like synthwave
 - Astronomy enthusiast
 - Exploring the universe
 
