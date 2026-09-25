@@ -16,8 +16,7 @@
 
 ### 👤 About me
 
-- Dedicated to optimizing Windows OS, performance comes first
-- Passionate about GUI and TUI tools
+- Passionate about GUI and TUI software
 - I like synthwave
 - Astronomy enthusiast
 - Exploring the universe
