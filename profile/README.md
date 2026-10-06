@@ -19,7 +19,6 @@
 - Passionate about GUI and TUI software
 - I like synthwave
 - Astronomy enthusiast
-- Exploring the universe
 
 <details>
 <summary> </summary>
