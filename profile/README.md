@@ -74,6 +74,12 @@
 </p>
 </details>
 
+<details>
+<summary>Achievements</summary>
+<br>
+  <a href="https://github.com/NeetheCheeBao?tab=achievements">Achievements</a>
+</details>
+
 </details>
 
 ### 🌐 Blog
