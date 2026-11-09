@@ -5,13 +5,13 @@
 </p>
 
 <p align="center">
-  <img src="../assets/badges/python.svg" alt="python" />
-  <img src="../assets/badges/rust.svg" alt="rust" />
-  <img src="../assets/badges/c.svg" alt="c" />
-  <img src="../assets/badges/cpp.svg" alt="cpp" />
-  <img src="../assets/badges/javascript.svg" alt="javascript" />
-  <img src="../assets/badges/html5.svg" alt="html" />
-  <img src="../assets/badges/css3.svg" alt="css" />
+  <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/main/assets/badges/python.svg" alt="python" />
+  <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/main/assets/badges/rust.svg" alt="rust" />
+  <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/main/assets/badges/c.svg" alt="c" />
+  <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/main/assets/badges/cpp.svg" alt="cpp" />
+  <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/main/assets/badges/javascript.svg" alt="javascript" />
+  <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/main/assets/badges/html5.svg" alt="html" />
+  <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/main/assets/badges/css3.svg" alt="css" />
 </p>
 
 ### 👤 About me
