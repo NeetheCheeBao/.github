@@ -5,13 +5,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-E56B8F?style=for-the-badge&logo=python&logoColor=white" alt="python" />
-  <img src="https://img.shields.io/badge/Rust-E56B8F?style=for-the-badge&logo=rust&logoColor=white" alt="rust" />
-  <img src="https://img.shields.io/badge/C-E56B8F?style=for-the-badge&logo=c&logoColor=white" alt="c" />
-  <img src="https://img.shields.io/badge/C%2B%2B-E56B8F?style=for-the-badge&logo=cplusplus&logoColor=white" alt="cpp" />
-  <img src="https://img.shields.io/badge/JavaScript-E56B8F?style=for-the-badge&logo=javascript&logoColor=white" alt="javascript" />
-  <img src="https://img.shields.io/badge/HTML5-E56B8F?style=for-the-badge&logo=html5&logoColor=white" alt="html" />
-  <img src="https://img.shields.io/badge/CSS3-E56B8F?style=for-the-badge&logo=css&logoColor=white" alt="css" />
+  <img src="../assets/badges/python.svg" alt="python" />
+  <img src="../assets/badges/rust.svg" alt="rust" />
+  <img src="../assets/badges/c.svg" alt="c" />
+  <img src="../assets/badges/cpp.svg" alt="cpp" />
+  <img src="../assets/badges/javascript.svg" alt="javascript" />
+  <img src="../assets/badges/html5.svg" alt="html" />
+  <img src="../assets/badges/css3.svg" alt="css" />
 </p>
 
 ### 👤 About me
