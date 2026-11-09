@@ -10,11 +10,6 @@ on:
   # 允许手动随时触发
   workflow_dispatch:
 
-  # 向main分支推送代码时触发
-  push:
-    branches:
-    - main
-
 jobs:
   generate:
     permissions:
