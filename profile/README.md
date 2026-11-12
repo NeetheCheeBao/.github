@@ -1,17 +1,31 @@
 <p align="center">
   <a href="https://github.com/NeetheCheeBao">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=E56B8F&size=30&width=600&center=true&lines=Hi+there%2C+I%27m+NeetheCheeBao!+%F0%9F%91%8B" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=E56B8F&size=30&width=600&center=true&lines=Hi+there%2C+I%27m+NeetheCheeBao!+%F0%9F%91%8B" alt="Title" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/main/assets/badges/python.svg" alt="python" />
-  <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/main/assets/badges/rust.svg" alt="rust" />
-  <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/main/assets/badges/c.svg" alt="c" />
-  <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/main/assets/badges/cpp.svg" alt="cpp" />
-  <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/main/assets/badges/javascript.svg" alt="javascript" />
-  <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/main/assets/badges/html5.svg" alt="html" />
-  <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/main/assets/badges/css3.svg" alt="css" />
+  <a href="https://github.com/NeetheCheeBao">
+    <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/main/assets/badges/python.svg" alt="python" />
+  </a>
+  <a href="https://github.com/NeetheCheeBao">
+    <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/main/assets/badges/rust.svg" alt="rust" />
+  </a>
+  <a href="https://github.com/NeetheCheeBao">
+    <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/main/assets/badges/c.svg" alt="c" />
+  </a>
+  <a href="https://github.com/NeetheCheeBao">
+    <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/main/assets/badges/cpp.svg" alt="cpp" />
+  </a>
+  <a href="https://github.com/NeetheCheeBao">
+    <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/main/assets/badges/javascript.svg" alt="javascript" />
+  </a>
+  <a href="https://github.com/NeetheCheeBao">
+    <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/main/assets/badges/html5.svg" alt="html" />
+  </a>
+  <a href="https://github.com/NeetheCheeBao">
+    <img src="https://raw.githubusercontent.com/NeetheCheeBao/.github/main/assets/badges/css3.svg" alt="css" />
+  </a>
 </p>
 
 ### 👤 About me
